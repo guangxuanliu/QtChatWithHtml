@@ -22,7 +22,8 @@ function sendMessage(msg) {
 }
 
 function recvMessage(msg) {
-    alert("接收到Qt发送的消息：" + msg);
+    var textarea = document.getElementById("comments");
+    textarea.innerHTML += ("Qt say : " + msg + "\n");
 }
 
 // 控件控制函数

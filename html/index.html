@@ -7,9 +7,16 @@
 
 <body>
 
-    <input id="message" type="text" name="msgText" />
-    <button id="btn">发送消息</button>
+    <div>
+        <textarea id="comments" rows="20" readonly="readonly"></textarea>
+    </div>
+    <div margin-top="10px">
+        <span class="label">请输入：</span>
+        <input id="message" type="text" name="msgText" />
+        <button id="btn">发送</button>
 
+    </div>
+    
     <script type="text/javascript" src="qwebchannel.js"></script>
     <script type="text/javascript" src="common.js"></script>
 
